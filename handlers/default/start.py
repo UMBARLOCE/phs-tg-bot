@@ -1,5 +1,5 @@
-from config_data.loader import bot
 from aiogram import types
+from config_data.loader import bot
 
 
 async def start_(message: types.Message):
