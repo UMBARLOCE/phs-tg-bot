@@ -1,15 +1,16 @@
 from aiogram.utils import executor
 from aiogram import Dispatcher
 from loader import dp
-# from utils.reg_commands import reg_handlers, set_commands
+from utils.registar import set_handlers, set_commands
+
 # from database.sq_db import create_table
 
 
 async def on_startup(_):
     """Запускается один раз при включении бота."""
     # create_table()
-    # reg_handlers(dp)
-    # await set_commands(dp)
+    set_handlers(dp)
+    await set_commands(dp)
     print("Бот он-лайн")
 
 

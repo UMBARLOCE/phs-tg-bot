@@ -2,10 +2,10 @@ from loader import bot
 from aiogram import types
 
 
-async def start_(message: types.Message):
-    """Запустить бота"""
+async def echo_(message: types.Message):
+    # await message.answer(message.text)
     await bot.send_message(
         message.from_user.id,
-        f"Привет, {message.from_user.full_name}!",
+        message.text,
         # reply_markup=kb_4_commands(),
     )

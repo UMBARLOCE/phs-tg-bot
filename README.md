@@ -28,8 +28,22 @@
 
 `pip install aiogram`
 
+https://docs.aiogram.dev/en/latest/index.html
+
 `pip freeze > requirements.txt`
 
 #
-# bot_father
+# TG -> @BotFather
 
+- /start -> /newbot
+
+`name -> test`
+
+`@name -> test_bot`
+
+- save TOKEN
+
+- /setprivacy -> click bot -> Disable
+
+#
+# 
