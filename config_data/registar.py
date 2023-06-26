@@ -7,6 +7,7 @@ def set_handlers(dp: Dispatcher):
     """Регистрация хендлеров."""
     dp.register_message_handler(start.start_, commands=["start"])
     dp.register_message_handler(help.help_, commands=["help"])
+
     dp.register_message_handler(echo.echo_)  # эхо последнее
 
 

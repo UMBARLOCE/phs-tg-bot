@@ -1,7 +1,7 @@
 from aiogram.utils import executor
 from aiogram import Dispatcher
 from config_data.loader import dp
-from utils.registar import set_handlers, set_commands
+from config_data.registar import set_handlers, set_commands
 
 # from database.sq_db import create_table
 
