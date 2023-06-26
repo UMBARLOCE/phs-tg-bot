@@ -1,12 +1,21 @@
 # phs-tg-bot
-Бот от канала PHS.
+бот от канала PHS.
 
-## репо
+# repo
 
-- создать публичный репо
-- пробросить SSH по необходимости
+- создать публичный репо на GitHub
+- клонируем репо
 
-    `ssh-keygen -t ed25519 -C "sample_name"`
+`cd Desktop/`
 
-    `cat ~/.ssh/id_ed25519.pub`
+`git clone git@github.com:UMBARLOCE/phs-tg-bot.git`
 
+- пробросить SSH (опционально)
+
+`ssh-keygen -t ed25519 -C "github"`
+
+`cat ~/.ssh/id_ed25519.pub`
+
+# venv
+
+``
