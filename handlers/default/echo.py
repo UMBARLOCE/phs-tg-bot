@@ -1,4 +1,4 @@
-from loader import bot
+from config_data.loader import bot
 from aiogram import types
 
 
