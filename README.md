@@ -46,4 +46,17 @@ https://docs.aiogram.dev/en/latest/index.html
 - /setprivacy -> click bot -> Disable
 
 #
-# 
+# TG -> new
+
+- create group
+
+`test_group`
+
+- add members
+
+`@test_bot`
+
+- group settings -> add administrator from members
+
+`@test_bot`
+

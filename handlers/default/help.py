@@ -2,11 +2,11 @@ from aiogram import types
 from config_data.loader import bot
 
 
-async def help_(message: types.Message):
+async def help_(message: types.Message) -> None:
     """Вызвать справку"""
     await bot.send_message(
-        message.from_user.id,
-        "Бот для поиска оптимальных отелей.\n"
+        chat_id=message.from_user.id,
+        text="Бот для поиска оптимальных отелей.\n"
         "Команды с описанием указаны в МЕНЮ.",
         # reply_markup=kb_4_commands(),
     )
